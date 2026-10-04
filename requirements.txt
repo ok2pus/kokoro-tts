@@ -1,5 +1,7 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
 streamlit
 soundfile
-kokoro
-torch
-numpy
+numpy==2.5.3
+torch==2.14.0+cpu
+kokoro==0.9.4
+misaki[en]==0.9.4
